@@ -2,7 +2,7 @@
 #include<stdbool.h>
 
 bool linearSearch(int* nums, int numsSize, int i, int element){
-	if(nums[i]==element && i<numsSize){
+	if(nums[i]==element){
 		return true;
 	}
 	if(i>=numsSize){
@@ -19,3 +19,4 @@ int main(){
 	(x==true) ? printf("Element found.") : printf("Element not found.");
 	return 0;
 }
+
